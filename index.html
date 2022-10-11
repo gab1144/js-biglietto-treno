@@ -31,7 +31,7 @@
           </span>
 
           <span class="d-block">
-            <strong>Prezzo del viaggio (0.21 € al km): </strong><span id="prezzoIniziale" class="rounded bg-light p-1 border border-1 border-dark"></span>
+            <strong>Prezzo del viaggio (0.21 € al km): </strong><span id="prezzo-i" class="rounded bg-light p-1 border border-1 border-dark"></span>
           </span>
 
           <span class="d-block">
@@ -45,11 +45,11 @@
               <tbody class="table-group-divider">
                 <tr>
                   <th scope="row">Minorenni (&lt; 18 anni)</th>
-                  <td>20%</td>
+                  <td id="sconto-min"></td>
                 </tr>
                 <tr>
                   <th scope="row">Over 65 (&gt; 65 anni)</th>
-                  <td>40%</td>
+                  <td id="sconto-over"></td>
                 </tr>
               </tbody>
             </table>
@@ -58,12 +58,14 @@
           </span>
 
           <span class="d-block">
-            <strong>Prezzo finale: </strong><span id="prezzoFinale" class="rounded bg-light p-1 border border-1 border-dark"></span>
+            <strong>Prezzo finale: </strong><span id="prezzo-f" class="rounded bg-light p-1 border border-1 border-dark"></span>
           </span>
         </div>
       </div>
     </div>
   </main>
-  
+
+  <script src="js/script.js"></script>
+
 </body>
 </html>
